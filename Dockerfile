@@ -48,7 +48,7 @@ RUN yum install -y http://dev.mysql.com/get/mysql-community-release-el6-5.noarch
 RUN yum install -y mysql-community-server
 
 # install redis
-RUN wget http://download.redis.io/releases/redis-3.0.3.tar.gz
-RUN tar xzf redis-3.0.3.tar.gz
-RUN cd redis-3.0.3
-RUN make
+# RUN wget http://download.redis.io/releases/redis-3.0.3.tar.gz
+# RUN tar xzf redis-3.0.3.tar.gz
+# RUN cd redis-3.0.3
+# RUN make
