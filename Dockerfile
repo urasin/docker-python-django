@@ -44,8 +44,8 @@ RUN rpm -ivh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos
 RUN yum install -y nginx
 
 # install mysql
-RUN yum install http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
-RUN yum install mysql-community-server
+RUN yum install -y http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
+RUN yum install -y mysql-community-server
 
 # install redis
 RUN wget http://download.redis.io/releases/redis-3.0.3.tar.gz
