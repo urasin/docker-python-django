@@ -15,7 +15,7 @@ RUN rpm -ihv rpmforge-release*.rf.i686.rpm
 RUN yum install -y htop
 
 # install for python build librarys
-# RUN yum groupinstall -y development
+RUN yum groupinstall -y development
 RUN yum install -y zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
 
 # install pyenv
