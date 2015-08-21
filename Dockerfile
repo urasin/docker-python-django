@@ -29,7 +29,7 @@ RUN exec $SHELL
 RUN /root/.pyenv/bin/pyenv install 2.7.9
 RUN /root/.pyenv/bin/pyenv global 2.7.9
 RUN /root/.pyenv/bin/pyenv rehash
-RUN pip install ansible
+RUN /root/.pyenv/versions/2.7.9/bin/pip install ansible
 
 # install python 3.4.2
 RUN /root/.pyenv/bin/pyenv install 3.4.2
